@@ -2,7 +2,7 @@
 
 Recreation of the classic 2020 Discord voice panel.
 
-*Note: Requires Vencord or BetterDiscord to function. Using the "IconRevert 2023" plugin is highly recommended for the best visual results.*
+*Note: Requires Vencord or BetterDiscord to function. Using the "IconRevert 2023" and "Oldcord" plugins is highly recommended for the best visual results.*
 
 ## Installation
 
