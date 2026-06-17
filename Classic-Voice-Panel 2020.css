@@ -1,0 +1,80 @@
+div[class*="actionButtons_"] {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    gap: 8px !important;
+    width: 100% !important;
+}
+
+div[class*="actionButtons_"] > * {
+    display: none !important;
+}
+
+div[class*="actionButtons_"] > :nth-child(1),
+div[class*="actionButtons_"] > :nth-child(3) {
+    display: flex !important;
+    flex: 1 1 0% !important;
+    height: 32px !important;
+    border-radius: 4px !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 6px !important;
+    cursor: pointer !important;
+    box-sizing: border-box !important;
+}
+
+div[class*="actionButtons_"] > :nth-child(1) > *,
+div[class*="actionButtons_"] > :nth-child(3) > * {
+    display: contents !important;
+}
+
+div[class*="actionButtons_"] > :nth-child(1) svg,
+div[class*="actionButtons_"] > :nth-child(3) svg {
+    width: 16px !important;
+    height: 16px !important;
+    flex-shrink: 0 !important;
+    color: #ffffff !important;
+}
+
+div[class*="actionButtons_"] > :nth-child(1) {
+    background-color: #4f545c !important;
+}
+
+div[class*="actionButtons_"] > :nth-child(1):hover {
+    background-color: #686d73 !important;
+}
+
+div[class*="actionButtons_"] > :nth-child(1)::after {
+    content: "Video" !important;
+    font-family: sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+}
+
+div[class*="actionButtons_"] > :nth-child(3) {
+    background-color: #4f545c !important;
+}
+
+div[class*="actionButtons_"] > :nth-child(3):hover {
+    background-color: #686d73 !important;
+}
+
+div[class*="actionButtons_"] > :nth-child(3)[class*="active"],
+div[class*="actionButtons_"] > :nth-child(3)[class*="Active"] {
+    background-color: #43b581 !important; 
+}
+
+div[class*="actionButtons_"] > :nth-child(3)[class*="active"]:hover,
+div[class*="actionButtons_"] > :nth-child(3)[class*="Active"]:hover {
+    background-color: #3ca374 !important;
+}
+
+div[class*="actionButtons_"] > :nth-child(3)::after {
+    content: "Screen" !important;
+    font-family: sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+}
